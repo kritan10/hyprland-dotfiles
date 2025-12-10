@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#!/usr/bin/env bash
-
 TARGET="$HOME/.config/hypr/bindings.conf"
 SOURCE="./conf/bindings.conf"
 MARKER="## --------------------------- CUSTOM BINDS  --------------------------- ##"
