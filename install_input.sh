@@ -10,3 +10,5 @@ sed -i "s/^\([[:space:]]*\)#\?[[:space:]]*natural_scroll.*/\1natural_scroll = tr
 
 # Enable numlock_by_default
 sed -i "s/^\([[:space:]]*\)#\?[[:space:]]*numlock_by_default.*/\1numlock_by_default = true/" "$INPUT_FILE"
+
+echo "Inputs updated sucessfully"

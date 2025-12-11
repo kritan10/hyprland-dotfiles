@@ -1,3 +1,5 @@
 #!/bin/sh
 
-cp -f ./conf/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf
+cp -f ./conf/hyprlock.conf "$HOME/.config/hypr"
+
+echo "Lock-screen installed successfully"
