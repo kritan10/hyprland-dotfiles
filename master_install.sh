@@ -21,4 +21,7 @@ chmod +x ./install_monitors.sh
 chmod +x ./install_zshrc.sh 
 ./install_zshrc.sh
 
+chmod +x ./install_waybar.sh 
+./install_waybar.sh
+
 hyprctl reload
