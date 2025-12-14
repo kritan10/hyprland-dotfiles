@@ -22,9 +22,7 @@ fi
 alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 
 # Init
-if command -v mise &> /dev/null; then
-  eval "$(mise activate bash)"
-fi
+eval "$(~/.local/bin/mise activate zsh)"
 
 if command -v starship &> /dev/null; then
   eval "$(starship init zsh)"
